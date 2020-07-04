@@ -15,7 +15,7 @@ FB.config({
   KEY_FACEBOOK: 'Freddie Code', 
 });
 
-//Enlaze entre tu servidor y facebook
+//Enlace entre tu servidor y facebook
 app.get('/', FB.checkWebhook);
 
 app.post('/', async (req,res) => {
